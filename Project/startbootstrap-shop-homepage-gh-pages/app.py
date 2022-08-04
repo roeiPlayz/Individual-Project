@@ -17,12 +17,12 @@ import pyrebase
 config = {
   "apiKey": "AIzaSyBQY1mg1Rbd1DWM3D_tlVsimR2R6BGuPt4",
   "authDomain": "meet-personal-project-roei.firebaseapp.com",
-  "databaseURL": "https://meet-personal-project-roei-default-rtdb.europe-west1.firebasedatabase.app",
   "projectId": "meet-personal-project-roei",
   "storageBucket": "meet-personal-project-roei.appspot.com",
   "messagingSenderId": "685836938130",
   "appId": "1:685836938130:web:b68c4f5f3c8ab416572f4b",
-  "measurementId": "G-DL424PF50T"
+  "measurementId": "G-DL424PF50T",
+  "databaseURL": "https://meet-personal-project-roei-default-rtdb.europe-west1.firebasedatabase.app"
 };
 
 
