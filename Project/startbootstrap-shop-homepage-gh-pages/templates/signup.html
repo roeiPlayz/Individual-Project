@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="static/css/styles2.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="static/css/styles2.css">
+    <title>Signup</title>
+</head>
+<body>
+    <div class = "main">
+        <p class="sign" align="center">Sign Up</p>
+        <form method="POST" class = "form1" action="/signup">
+
+            <!-- Email -->
+            <div>
+                <div class="input-group">
+                    <input class = "un " type="name"  name="Full Name" placeholder="Full Name">
+               </div>
+            </div>
+        
+            <div>
+                <div>
+                    <input class="un " type="email" name = "email" id = "emailStr" align="center" placeholder="Email">
+                </div>
+            </div>
+
+            <!-- Password -->
+            <div>
+                <div class="input-group">
+                    <input class = "pass" align = "center" type="password"  name="password" minlength="6" placeholder="Password">
+                </div>
+            </div>
+        
+            <div>
+                <div class="input-group">
+                    <input class="un " type="text" align="center" name = "Username" placeholder="Username">
+                </div>
+            </div>
+
+            <!-- Button -->
+            <br>
+            <div>
+                <input type = "submit" class="submit" align="center" value="Sign Up">
+            </div>
+            <br>
+            <br>
+            <div>
+                <a class = "submit "href="/signin">Sign In</a>
+            </div>
+        </form>
+    </div>
+    <br>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="static/css/styles2.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="static/css/styles2.css">
+    <title>Signin</title>
+</head>
+<body>
+    <div class="main">
+        <p class="sign" align="center">Sign in</p>
+        <form class = "form1" method="post" action="/">
+            <!-- Email -->
+            <div>
+                <div>
+                    <input class="un " type="email" name = "email" id = "emailStr" align="center" placeholder="Email">
+                </div>
+            </div>
+
+            <!-- Password -->
+            <div>
+                <div class="input-group">
+                    <input class = "pass" align = "center" type="password"  name="password" minlength="6" placeholder="Password">
+                </div>
+            </div>
+        
+            <!-- Button -->
+            <div>
+                <input type = "submit" class="submit" align="center" value="Sign in" href = "/">
+            </div>
+            <br>
+            <br>
+            <div>
+                <a class="submit" align = "center" href="/signup">Sign up</a>
+            </div>
+        </form>
+    </div>
+    <br>
+<!--     <a href="/signup"><button>signup</button></a>
+    <a href="/signout"><button>signout</button></a> -->
+</body>
+</html>
